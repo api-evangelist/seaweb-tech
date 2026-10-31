@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-seaweb-tech is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://seaweb.tech/
+SeaWeb provides a context API for AI agents, delivering entity search, indexed extraction, and disruption monitoring. The platform offers structured web content with honest labels, allowing agents to retrieve searchable passages, extract data, and receive real-time alerts on travel or event disruptions. It supports both anonymous read‑only access and authenticated tool calls via a simple JSON‑RPC MCP endpoint.
+
+**Areas:** AI · ContextAPI · Search · Extraction · Monitoring
+
+## seaweb-tech on APIs.io
+
+Everything profiled for seaweb-tech is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/seaweb-tech/](https://apis.io/providers/seaweb-tech/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SeaWeb Context API](https://apis.io/apis/seaweb-tech/seaweb-context-api/) — SeaWeb provides a context API for AI agents, delivering entity search, indexed extraction, and disruption monitoring.
+- [seaweb-tech API](https://apis.io/apis/seaweb-tech/seaweb-tech-api/) — seaweb-tech API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PostMcpRequest](https://apis.io/schemas/seaweb-tech/seaweb-tech-post-mcp-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Seaweb Tech Context](https://apis.io/jsonld/seaweb-tech/seaweb-tech-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [seaweb-tech API Rules](https://apis.io/rules/seaweb-tech/seaweb-tech-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Seaweb Tech Authentication](https://apis.io/security/seaweb-tech/seaweb-tech-authentication/)
+- [Seaweb Tech Domain Security](https://apis.io/security/seaweb-tech/seaweb-tech-domain-security/)
+- [Seaweb Tech Vulnerability Disclosure](https://apis.io/security/seaweb-tech/seaweb-tech-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Seaweb Tech Scopes](https://apis.io/scopes/seaweb-tech/seaweb-tech-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://seaweb.tech/)
+- [Documentation](https://seaweb.tech/docs.html)
+- [Getting started](https://seaweb.tech/docs.html)
+- [API reference](https://seaweb.tech/docs-mcp.html)
+- [Pricing](https://seaweb.tech/pricing.html)
+- [Support](https://seaweb.tech/contact.html)
+- [Blog](https://seaweb.tech/blog.html)
+- [Security](https://github.com/aritroBh/SeaWeb/blob/main/SECURITY.md)
+- [Terms of service](https://seaweb.tech/terms.html)
+- [Privacy policy](https://seaweb.tech/privacy.html)
+
+## API Evangelist rating
+
+**Kin Score 49.8** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 46.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 44.7 |
+
+**Agent readiness 20.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/seaweb-tech/](https://apis.io/providers/seaweb-tech/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for seaweb-tech: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/seaweb-tech/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
